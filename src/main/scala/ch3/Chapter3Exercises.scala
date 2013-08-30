@@ -6,7 +6,7 @@ import java.awt.datatransfer._
 import collection.mutable.Buffer
 import scala.collection.JavaConversions.asScalaBuffer
 
-object Exercises {
+object Chapter3Exercises {
 
   // exercise 1
   def randomArray(n: Int): Array[Int] =  Array.fill(n) {Random.nextInt(5)}
